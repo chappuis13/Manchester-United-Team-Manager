@@ -94,6 +94,7 @@ Manchester United Team Manager/
 ├── data/
 │   └── players.json  ← (auto-created)
 ├── football_icon.png
+├── background_image.png
 └── README.md
 ```
 
