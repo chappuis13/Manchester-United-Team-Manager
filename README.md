@@ -3,7 +3,7 @@ Project UAS Object Oriented Programming
 
 ## Inspiration
 
-This project is inspired by my passion for football and specifically my admiration for Manchester United. I wanted to create a desktop application that helps manage football players on a team in a simple, structured, and user-friendly way. Manual player tracking is error-prone and inefficient, so I applied Object-Oriented Programming (OOP) principles to build a functional Football Team Manager.
+This project is inspired by my passion for football and in particular as a big Manchester United fan. I wanted to create a desktop application that helps manage football players on a team in a simple, structured, and user-friendly way. Manual player tracking is error-prone and inefficient, so I applied Object-Oriented Programming (OOP) principles to build a functional Football Team Manager.
 
 ## Features
 
@@ -20,7 +20,25 @@ This project is inspired by my passion for football and specifically my admirati
 - JSON for data persistence
 - Object-Oriented Programming concepts (inheritance, abstract classes, composition)
 
-## How to Run
+## Installation make git clone Steps
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/chappuis13/Manchester-United-Team-Manager.git
+    cd Manchester-United-Team-Manager
+    ```
+
+2. **Ensure Python is installed**:
+
+    ```bash
+    python --version
+    ```
+
+3. **No additional packages required** - uses only Python standard library
+
+
+## How to Run Standard
 
 1. **Make sure you have Python installed**:
    ```bash
@@ -44,16 +62,16 @@ This project is inspired by my passion for football and specifically my admirati
 
 - The coach is shown on top of the window as:
   ```
-  👤 Coach: Erik ten Hag
+  👤 Coach: Ruben Amorim
   ```
 - It is hardcoded and **cannot be modified by the user** through the GUI.
 
 ### Adding Players
 
 - Fill in:
-  - Name (e.g., Marcus Rashford)
-  - Age (e.g., 26)
-  - Position (e.g., Forward)
+  - Name (e.g., Andre Onani)
+  - Age (e.g., 29)
+  - Position (e.g., GK)
 - Then click **Add Player**
 
 ### Saving and Loading
@@ -86,9 +104,9 @@ Manchester United Team Manager/
 ```json
 [
   {
-    "name": "Luke Shaw",
-    "age": 28,
-    "position": "Defender"
+    "name": "Andre Onani",
+    "age": 29,
+    "position": "GK"
   }
 ]
 ```
@@ -100,8 +118,8 @@ Link (if applicable):
 
 ## Author
 
-Nama: [Isi Nama Kamu]  
-NIM: [Isi NIM Kamu]
+Nama: [Chairil Sutisna]  
+NIM: [20230040056]
 
 Developed as part of Object-Oriented Programming (OOP) final project.
 
